@@ -1,0 +1,36 @@
+/*
+	My css style
+*/
+
+/* BG */
+/* mystyles.css */
+.fun-links {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	gap: 15px;
+	flex-wrap: nowrap;
+	justify-content: center;
+  }
+  
+  .fun-links li a {
+	display: flex;
+	flex-direction: column; /* Stack text lines vertically */
+	justify-content: center; /* Vertically centers the content */
+	align-items: center;     /* Horizontally centers the content */
+	text-align: center;      /* Ensures each line is centered */
+	text-decoration: none;
+	background: #f0f0f0;
+	color: #333;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-weight: bold;
+	transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .fun-links li a:hover {
+	transform: scale(1.1);
+	background-color: #e0e0ff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
